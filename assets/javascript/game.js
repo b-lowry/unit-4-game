@@ -45,12 +45,16 @@ function winAndLoss() {
         console.log(wins);
         $("#wins").text(wins);
         alert("You Win")
+        totalScore = 0;
+        $("#current-score").text(totalScore);
         startGame();
     } else if (totalScore > randomNumber) {
         losses ++;
         console.log(losses);
         $("#losses").text(losses);
         alert("you Lose")
+        totalScore = 0;
+        $("#current-score").text(totalScore);
         startGame();
     }
 }
