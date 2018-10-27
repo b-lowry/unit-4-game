@@ -6,3 +6,12 @@
 .top-buffer {
     margin-top: 20px;
 }
+
+body {
+    background-image: url("../images/background.png") 
+}
+
+#side-img {
+    height: 100px;
+    width: 100px%;
+}

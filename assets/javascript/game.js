@@ -52,7 +52,7 @@ function winAndLoss() {
         losses ++;
         console.log(losses);
         $("#losses").text(losses);
-        alert("you Lose")
+        alert("You Lose")
         totalScore = 0;
         $("#current-score").text(totalScore);
         startGame();
